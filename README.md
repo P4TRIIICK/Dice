@@ -130,6 +130,6 @@ flutter:
     - assets/images/
 ~~~
 ## 💡 Melhorias Futuras <h2>
-Adicionar animações mais complexas para o dado rolando.
-Implementar uma tela de configurações onde o usuário pode personalizar o gradiente de fundo.
-Permitir a escolha de diferentes tipos de dados (ex.: d12, d20).
+* Adicionar animações mais complexas para o dado rolando.
+* Implementar uma tela de configurações onde o usuário pode personalizar o gradiente de fundo.
+* Permitir a escolha de diferentes tipos de dados (ex.: d12, d20).

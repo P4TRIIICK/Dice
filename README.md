@@ -1,36 +1,36 @@
-#🎲 Dice Roller App
+# 🎲 Dice Roller App <h1>
 Um simples aplicativo Flutter que simula o lançamento de um dado. O design interativo e o gradiente de fundo tornam o app agradável de usar. Dividido em componentes modulares, como DiceRoller, GradientContainer e StyledText, o código é fácil de manter e expandir.
 
-###🚀 Pré-requisitos
+### 🚀 Pré-requisitos <h3>
 Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 
-###Flutter SDK
+### Flutter SDK <h3>
 Um editor de código como Visual Studio Code ou Android Studio
-🎮 Como rodar o projeto
-Clone o repositório:
 
+### 🎮 Como rodar o projeto <h3>
+Clone o repositório:
 ~~~bash
 git clone https://github.com/P4TRIIICK/Dice.git
 cd Dice
 ~~~
 
-###Instale as dependências:
+### Instale as dependências: <h3>
 Execute o seguinte comando para instalar as dependências do Flutter:
 
 ~~~bash
 flutter pub get
 ~~~
 
-###Execute o aplicativo:
+###Execute o aplicativo: <h3>
 
-####Conecte um dispositivo Android ou iOS ou use um emulador e execute:
+####Conecte um dispositivo Android ou iOS ou use um emulador e execute: <h4>
 
 ~~~bash
 flutter run
 ~~~
-##📂 Estrutura do Projeto
+##📂 Estrutura do Projeto <h2>
 
-lib/dice_roller.dart
+**lib/dice_roller.dart**
 Este arquivo contém a lógica principal do dado. A classe DiceRoller é um StatefulWidget que exibe a imagem do dado com base no valor atual. O dado é rolado quando o botão "Roll the dice!" é pressionado.
 
 ~~~dart
@@ -58,7 +58,7 @@ class _DiceRollerState extends State<DiceRoller> {
   }
 }
 ~~~
-lib/gradient_container.dart
+**lib/gradient_container.dart**
 Este arquivo define o fundo gradiente do aplicativo e contém o dado. A classe GradientContainer é um StatelessWidget que recebe uma lista de cores para criar o gradiente.
 
 ~~~dart
@@ -82,7 +82,7 @@ class GradientContainer extends StatelessWidget {
   }
 }
 ~~~
-lib/main.dart
+**lib/main.dart**
 Este arquivo contém a função principal que inicia o aplicativo. Ele utiliza o widget GradientContainer como corpo principal da interface, com um gradiente de roxo e azul.
 
 ~~~dart
@@ -100,7 +100,7 @@ void main() {
   );
 }
 ~~~
-lib/styled_text.dart
+**lib/styled_text.dart**
 Este arquivo define o widget StyledText, usado para estilizar textos com um tamanho de fonte e cor personalizados.
 
 ~~~dart
@@ -121,15 +121,15 @@ class StyledText extends StatelessWidget {
   }
 }
 ~~~
-##🖼️ Assets
-O aplicativo depende de imagens de dados (por exemplo: dice-1.png, dice-2.png, etc.), que estão localizadas na pasta assets/images/. Certifique-se de que essas imagens estão corretamente configuradas no arquivo pubspec.yaml:
+## 🖼️ Assets <h2>
+O aplicativo depende de imagens de dados (por exemplo: dice-1.png, dice-2.png, etc.), que estão localizadas na pasta assets/images/. Certifique-se de que essas imagens estão corretamente configuradas no arquivo **pubspec.yaml**:
 
 ~~~yaml
 flutter:
   assets:
     - assets/images/
 ~~~
-💡 Melhorias Futuras
+## 💡 Melhorias Futuras <h2>
 Adicionar animações mais complexas para o dado rolando.
 Implementar uma tela de configurações onde o usuário pode personalizar o gradiente de fundo.
 Permitir a escolha de diferentes tipos de dados (ex.: d12, d20).

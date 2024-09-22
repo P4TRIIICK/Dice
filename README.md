@@ -21,14 +21,14 @@ Execute o seguinte comando para instalar as dependências do Flutter:
 flutter pub get
 ~~~
 
-###Execute o aplicativo: <h3>
+### Execute o aplicativo: <h3>
 
-####Conecte um dispositivo Android ou iOS ou use um emulador e execute: <h4>
+#### Conecte um dispositivo Android ou iOS ou use um emulador e execute: <h4>
 
 ~~~bash
 flutter run
 ~~~
-##📂 Estrutura do Projeto <h2>
+## 📂 Estrutura do Projeto <h2>
 
 **lib/dice_roller.dart**
 Este arquivo contém a lógica principal do dado. A classe DiceRoller é um StatefulWidget que exibe a imagem do dado com base no valor atual. O dado é rolado quando o botão "Roll the dice!" é pressionado.
